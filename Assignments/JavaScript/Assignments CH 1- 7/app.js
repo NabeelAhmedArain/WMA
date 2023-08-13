@@ -149,15 +149,22 @@
 
 // Nested loop 
 
-var arr = ['Ali','Faisal','Alam','Jawad'];
-var arr2 = ['Akber','Hameed','Arsalan'];
+// var arr = ['Ali','Faisal','Alam','Jawad'];
+// var arr2 = ['Akber','Hameed','Arsalan'];
 
-for (var i = 0; i < arr.length; i++){
-    for(var j = 0; j < arr2.length; j++){
-        document.write(arr[i]+"  "+arr2[j]+ "<br>");
+// for (var i = 0; i < arr.length; i++){
+//     for(var j = 0; j < arr2.length; j++){
+//         document.write(arr[i]+"  "+arr2[j]+ "<br>");
+//     }
+// }
+
+// Nested Loop Table
+
+for(var i = 1; i <= 100; i = i+10){
+    for(var j = i; j < i+10; j++){
+        document.write(j+" ");
     }
+    document.write("<br>"); 
 }
-
-
 
 
