@@ -123,15 +123,29 @@
 
 
 // For Loop
-var num1 = +prompt("Enter value of Table you want");
-var num2 = +prompt("Enter End Value of Table");
+// var num1 = +prompt("Enter value of Table you want");
+// var num2 = +prompt("Enter End Value of Table");
 
-for(var i = 1; i<=num2; i++){
-    document.write(num1 + " x " + i + " = " + num1 * i + "<br>")
+// for(var i = 1; i<=num2; i++){
+//     document.write(num1 + " x " + i + " = " + num1 * i + "<br>")
+// }
+
+
+// For loop With If Statement and flag Variable
+
+var inputUser = prompt("Enter City Name Your Are Finding");
+var arr = ["Karachi","Islamabad",'Multan','Muree','Pindi','Lahore','Hyderabad'];
+var match = false;
+for(var i = 0; i < arr.length; i++){
+    if(inputUser == arr[i]){
+        match = true;
+        alert('City Found');
+        break
+    }   
 }
-
-
-
+if(match == false){
+    alert('Not Found');
+}
 
 
 
