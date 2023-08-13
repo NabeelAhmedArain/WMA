@@ -133,23 +133,30 @@
 
 // For loop With If Statement and flag Variable
 
-var inputUser = prompt("Enter City Name Your Are Finding");
-var arr = ["Karachi","Islamabad",'Multan','Muree','Pindi','Lahore','Hyderabad'];
-var match = false;
-for(var i = 0; i < arr.length; i++){
-    if(inputUser == arr[i]){
-        match = true;
-        alert('City Found');
-        break
-    }   
+// var inputUser = prompt("Enter City Name Your Are Finding");
+// var arr = ["Karachi","Islamabad",'Multan','Muree','Pindi','Lahore','Hyderabad'];
+// var match = false;
+// for(var i = 0; i < arr.length; i++){
+//     if(inputUser == arr[i]){
+//         match = true;
+//         alert('City Found');
+//         break
+//     }   
+// }
+// if(match == false){
+//     alert('Not Found');
+// }
+
+// Nested loop 
+
+var arr = ['Ali','Faisal','Alam','Jawad'];
+var arr2 = ['Akber','Hameed','Arsalan'];
+
+for (var i = 0; i < arr.length; i++){
+    for(var j = 0; j < arr2.length; j++){
+        document.write(arr[i]+"  "+arr2[j]+ "<br>");
+    }
 }
-if(match == false){
-    alert('Not Found');
-}
-
-
-
-
 
 
 
