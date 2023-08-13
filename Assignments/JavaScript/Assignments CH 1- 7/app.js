@@ -123,10 +123,11 @@
 
 
 // For Loop
-var i;
+var num1 = +prompt("Enter value of Table you want");
+var num2 = +prompt("Enter End Value of Table");
 
-for(i = 1; i<=10; i++){
-    document.write(i + "<br>")
+for(var i = 1; i<=num2; i++){
+    document.write(num1 + " x " + i + " = " + num1 * i + "<br>")
 }
 
 
