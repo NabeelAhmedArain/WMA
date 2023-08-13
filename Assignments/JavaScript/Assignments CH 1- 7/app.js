@@ -120,3 +120,22 @@
 // for (let i = 1; i <= 10; i++) {
 //     document.write(anyNumber + " x " + i + " = " + anyNumber * i + "<br>");
 // }
+
+
+// For Loop
+var i;
+
+for(i = 1; i<=10; i++){
+    document.write(i + "<br>")
+}
+
+
+
+
+
+
+
+
+
+
+
